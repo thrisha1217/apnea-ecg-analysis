@@ -24,7 +24,7 @@ Sampling Rate: 100 Hz.
 
 Annotations: Minute-wise apnea labels.
 
-<p align="center"> <img src="images/data_pipeline.png" width="650" alt="Data Preprocessing Pipeline"> </p>
+<p align="center"> <img src="images/Data Preprocessing Pipeline.png" width="650" alt="Data Preprocessing Pipeline"> </p>
 ⚙️ Preprocessing
 
 Filtering: Bandpass FIR filter (3–45 Hz).
@@ -56,7 +56,7 @@ We implemented and benchmarked the following models:
 
 ⚡ TCN + Transformer (proposed best model)
 
-<p align="center"> <img src="images/model_architecture.png" width="700" alt="TCN+Transformer Architecture"> </p>
+<p align="center"> <img src="images/TCN+Transformer Architecture.png" width="700" alt="TCN+Transformer Architecture"> </p>
 📊 Results
 Model	Accuracy	Precision	F1-Score	AUC-ROC
 Random Forest	78.1%	69.1%	68.7%	0.833
@@ -64,7 +64,7 @@ LSTM	84.9%	81.2%	81.9%	0.923
 Bi-LSTM	86.7%	82.5%	83.7%	0.938
 SE-MSCNN + Transformer	90.2%	88.5%	87.6%	0.962
 TCN + Transformer	90.59%	88.9%	87.7%	0.9665
-<p align="center"> <img src="images/confusion_matrix_tcn.png" width="420" alt="Confusion Matrix - TCN+Transformer"> <img src="images/confusion_matrix_semcnn.png" width="420" alt="Confusion Matrix - SE-MSCNN+Transformer"> </p>
+<p align="center"> <img src="images/Confusion Matrix for TCN+Transformer" width="420" alt="Confusion Matrix - TCN+Transformer"> <img src="images/Confusion Matrix for SEMSCNN+Transformer" width="420" alt="Confusion Matrix - SE-MSCNN+Transformer"> </p>
 🚀 Getting Started
 🔧 Requirements
 
