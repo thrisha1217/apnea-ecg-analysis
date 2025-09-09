@@ -64,7 +64,7 @@ LSTM	84.9%	81.2%	81.9%	0.923
 Bi-LSTM	86.7%	82.5%	83.7%	0.938
 SE-MSCNN + Transformer	90.2%	88.5%	87.6%	0.962
 TCN + Transformer	90.59%	88.9%	87.7%	0.9665
-<p align="center"> <img src="images/Confusion Matrix for TCN+Transformer Architecture.jpg" width="420" alt="Confusion Matrix - TCN+Transformer"> <img src="images/Confusion Matrix for SEMSCNN+TransformerArchitecture.jpg" width="420" alt="Confusion Matrix - SE-MSCNN+Transformer"> </p>
+<p align="center"> <img src="images/Confusion Matrix for TCN+Transformer Architecture.jpg" width="420" alt="Confusion Matrix - TCN+Transformer"> <img src="images/Confusion Matrix for SEMSCNN+Transformer Architecture.jpg" width="420" alt="Confusion Matrix - SE-MSCNN+Transformer"> </p>
 🚀 Getting Started
 🔧 Requirements
 
