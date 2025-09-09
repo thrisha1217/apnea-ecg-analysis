@@ -86,4 +86,10 @@ pip install -r requirements.txt
 ▶️ Running the Notebook
 jupyter notebook Sleep_Apnea_Project.ipynb
 
+## 📖 Reference
+This repository is based on our research work:  
+*"Improving Efficiency by using Dilated Causal Convolutions to extract Hierarchical Temporal Pattern of Time Series ECG Signals for identifying Sleep Apnea Syndrome"*  
+by BhanuSree Y, Thrisha Reddy J, Snehil A, Vijaya Laxmi S (SVKM’s NMIMS University, Hyderabad).  
+
+📄 See the [full paper](./Paper_final.pdf).
 
